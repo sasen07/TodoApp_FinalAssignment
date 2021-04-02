@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:background="#b9ebcf"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_title_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0sp"
+        android:layout_weight="1"
+        android:background="#E4D7D7"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/descripList_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#E4D7D7"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/dateList_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0sp"
+        android:layout_weight="1"
+        android:background="#E4D7D7"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

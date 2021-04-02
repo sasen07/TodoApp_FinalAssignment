@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123"
+    android:orientation="vertical"
+    tools:context=".EditTodoFragment">
+
+    <EditText
+        android:id="@+id/title_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#ADF6EDE9"
+        android:ems="10"
+        android:hint="@string/edit_Title"
+        android:inputType="textPersonName"
+        android:textColor="#D82020" />
+
+    <EditText
+        android:id="@+id/description_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10sp"
+        android:background="#ADF6EDE9"
+        android:ems="10"
+        android:hint="@string/edit_Description"
+        android:inputType="textPersonName"
+        android:textColor="#D82020" />
+
+    <EditText
+        android:id="@+id/date_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10sp"
+        android:background="#ADF6EDE9"
+        android:ems="10"
+        android:hint="@string/edit_date"
+        android:inputType="textPersonName"
+        android:textColor="#D82020" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="5sp"
+        android:background="#00F6EDE9"
+        android:text="@string/edit_priority"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/edit_rg_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/edit_rb_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#A3DD6229"
+            android:text="@string/edit_high" />
+
+        <RadioButton
+            android:id="@+id/edit_rb_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#A3DD6229"
+            android:text="@string/edit_medium" />
+
+        <RadioButton
+            android:id="@+id/edit_rb_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#A3DD6229"
+            android:text="@string/edit_low" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/complete_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="0"
+        android:background="#ADF6EDE9"
+        android:text="@string/checked_complete" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:text="@string/edit_save" />
+
+        <Button
+            android:id="@+id/cancelfrag_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>
