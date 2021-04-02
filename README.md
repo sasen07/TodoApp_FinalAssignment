@@ -11,20 +11,20 @@
 # App_screenshots
 | Splash  | Login | Login_Validation |
 | ------------- | ------------- |------------- |
-| ![](./screenshots/splash.jpg) | ![](./screenshots/login.jpg)  | ![](./screenshots/login_validation.jpg)  |
+| ![](./screenshots/splash.png) | ![](./screenshots/login.png)  | ![](./screenshots/login_validation.png)  |
 
 | Main_Activity  | Add_Tasks | Task_Validation |
 | ------------- | ------------- |------------- |
-| ![](./screenshots/main_activity.jpg) | ![](./screenshots/add_task.jpg)  | ![](./screenshots/task_validation.jpg)  |
+| ![](./screenshots/main_activity.png) | ![](./screenshots/add_task.png)  | ![](./screenshots/task_validation.png)  |
 
 | Saved_Tasks  | Update_Tasks | Updated_task |
 | ------------- | ------------- |------------- |
-| ![](./screenshots/saved_task.jpg) | ![](./screenshots/toUpdate.jpg)  | ![](./screenshots/task_updated.jpg)  |
+| ![](./screenshots/saved_task.png) | ![](./screenshots/toUpdate.png)  | ![](./screenshots/task_updated.png)  |
 
 | Menu  | Delete_checked | After_Deleting_Checked |
 | ------------- | ------------- |------------- |
-| ![](./screenshots/menu.jpg) | ![](./screenshots/delete_checked.jpg)  | ![](./screenshots/deleted_checked.jpg)  |
+| ![](./screenshots/menu.png) | ![](./screenshots/delete_checked.png)  | ![](./screenshots/deleted_checked.png)  |
 
 | DeleteAll_Tasks  | After_Deleting_All | Logout |
 | ------------- | ------------- |------------- |
-| ![](./screenshots/delete_all.jpg) | ![](./screenshots/deleting_all.jpg)  | ![](./screenshots/logout.jpg)  |
+| ![](./screenshots/delete_all.png) | ![](./screenshots/deleting_all.png)  | ![](./screenshots/logout.png)  |
